@@ -17,12 +17,12 @@
 >g++ client.cpp -o client -lssl -lcrypto -pthread
 ## Run code
 ##### Tracker
-> ./tracker​ <TRACKER INFO FILE>
+> `./tracker​ <TRACKER INFO FILE>`
 >
 > ex: `./tracker tracker_info.txt`
 ##### Client
 1. Run code
-    > ./client​ <IP>:<PORT> <TRACKER INFO FILE>
+    > `./client​ <IP>:<PORT> <TRACKER INFO FILE>`
     >
     > ex: `./client 127.0.0.1:4000 tracker_info.txt`
     > give this command `./client 127.0.0.1:4000 tracker_info.txt` (keep port other than 8000 and same port for all clients like 4000, code will handle the rest part) tracker_info.txt for all clients(peeers)
