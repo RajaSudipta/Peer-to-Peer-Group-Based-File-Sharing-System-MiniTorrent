@@ -19,12 +19,12 @@
 ##### Tracker
 > `./tracker​ <TRACKER INFO FILE>`
 >
-> ex: ./tracker tracker_info.txt
+> ex: `./tracker tracker_info.txt`
 ##### Client
 1. Run code
-    > `./client​ <IP>:<PORT> <TRACKER INFO FILE>`
+    > ./client​ <IP>:<PORT> <TRACKER INFO FILE>
     >
-    > ex: ./client 127.0.0.1:4000 tracker_info.txt
+    > ex: `./client 127.0.0.1:4000 tracker_info.txt`
     > give this command `./client 127.0.0.1:4000` (keep port other than 8000 and same port for all clients like 4000, code will handle the rest part) tracker_info.txt for all clients(peeers)
 2. Create user account:
     > create_user​ <user_id> <password>
